@@ -5,8 +5,8 @@ class WdmAiManagement < Formula
 
   desc "Manage AI agents, skills, MCP servers, rules, workflows, hooks, and harnesses"
   homepage "https://github.com/WD-Mitchell/WDM-AI-Management"
-  url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.2.3.tar.gz"
-  sha256 "263a0d4739deda7951765b6d68490d7d0507d92761b415c6afce2a9518ef3b1c"
+  url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.2.4.tar.gz"
+  sha256 "ed3679c42dfaa56f307727d3c8ace14e4514c8e74153206a87dc5757dc9cd2f5"
   license "MIT"
 
   depends_on "python@3.14"
@@ -26,10 +26,6 @@ class WdmAiManagement < Formula
       export PYTHONPATH="#{libexec}:$PYTHONPATH"
       exec "#{libexec}/venv/bin/python" "#{libexec}/bin/wdm-ai" "$@"
     EOS
-  end
-
-  def post_install
-    system bin/"wdm-ai", "bootstrap", "--quiet"
   end
 
   test do
