@@ -3,15 +3,15 @@ include Language::Python::Virtualenv
 class WdmAiManagement < Formula
   desc "Manage AI agents, skills, MCP servers, rules, workflows, hooks, and harnesses"
   homepage "https://github.com/WD-Mitchell/WDM-AI-Management"
-  url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "56f9292f806f013386ff46893bf6ffdb59d796730300521fe49fac8d7fe8903c"
+  url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.1.2.tar.gz"
+  sha256 "c4f72ad6a29901306922f0593f11865afbd0e2f041feefd0744e29ce177ebe94"
   license "MIT"
 
   depends_on "python@3.14"
 
   resource "PyYAML" do
-    url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.1.1.tar.gz"
-    sha256 "56f9292f806f013386ff46893bf6ffdb59d796730300521fe49fac8d7fe8903c"
+    url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.1.2.tar.gz"
+    sha256 "c4f72ad6a29901306922f0593f11865afbd0e2f041feefd0744e29ce177ebe94"
   end
 
   def install
