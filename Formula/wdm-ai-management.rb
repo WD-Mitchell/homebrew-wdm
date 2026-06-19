@@ -5,8 +5,8 @@ class WdmAiManagement < Formula
 
   desc "Manage AI agents, skills, MCP servers, rules, workflows, hooks, and harnesses"
   homepage "https://github.com/WD-Mitchell/WDM-AI-Management"
-  url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.2.7.tar.gz"
-  sha256 "29585a537980eb8ad2d001b28f10e619f345fc3e30ae0827629c4535e1ab49a2"
+  url "https://github.com/WD-Mitchell/WDM-AI-Management/archive/refs/tags/v1.2.8.tar.gz"
+  sha256 "b84b72cb09a38044139e81e98b10ea91008b6763f5b9c8043e140d185f43c3c5"
   license "MIT"
 
   depends_on "python@3.14"
